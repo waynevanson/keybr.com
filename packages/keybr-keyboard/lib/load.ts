@@ -39,6 +39,7 @@ import { LAYOUT_EN_COLEMAK_DH_MATRIX } from "./layout/en_colemak_dh_matrix.ts";
 import { LAYOUT_EN_DVORAK } from "./layout/en_dvorak.ts";
 import { LAYOUT_EN_DVORAK_PROG } from "./layout/en_dvorak_prog.ts";
 import { LAYOUT_EN_ENGRAM } from "./layout/en_engram.ts";
+import { LAYOUT_EN_ENGRAM_EN } from "./layout/en_engram_en.ts";
 import { LAYOUT_EN_ENTHIUM_V6 } from "./layout/en_enthium_v6.ts";
 import { LAYOUT_EN_ENTHIUM_V10 } from "./layout/en_enthium_v10.ts";
 import { LAYOUT_EN_ENTHIUM_V11 } from "./layout/en_enthium_v11.ts";
@@ -144,6 +145,7 @@ const layouts = new Map<Layout, CharacterDict>([
   [Layout.EN_DVORAK, LAYOUT_EN_DVORAK],
   [Layout.EN_DVORAK_PROG, LAYOUT_EN_DVORAK_PROG],
   [Layout.EN_ENGRAM, LAYOUT_EN_ENGRAM],
+  [Layout.EN_ENGRAM_EN, LAYOUT_EN_ENGRAM_EN],
   [Layout.EN_ENTHIUM_V6, LAYOUT_EN_ENTHIUM_V6],
   [Layout.EN_ENTHIUM_V10, LAYOUT_EN_ENTHIUM_V10],
   [Layout.EN_ENTHIUM_V11, LAYOUT_EN_ENTHIUM_V11],

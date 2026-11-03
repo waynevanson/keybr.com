@@ -938,6 +938,21 @@ export class Layout implements XEnumItem {
       Geometry.MATRIX,
     ),
   );
+  static readonly EN_ENGRAM_EN = new Layout(
+    /* id= */ "en-engram-en",
+    /* xid= */ 0xb2,
+    /* name= */ "Engram-en",
+    /* family= */ "en-engram-en",
+    /* language= */ Language.EN,
+    /* emulate= */ true,
+    /* geometries= */ new Enum(
+      Geometry.ANSI_101,
+      Geometry.ANSI_101_FULL,
+      Geometry.ISO_102,
+      Geometry.ISO_102_FULL,
+      Geometry.MATRIX,
+    ),
+  );
   static readonly EN_NERPS = new Layout(
     /* id= */ "en-nerps",
     /* xid= */ 0x93,
@@ -1432,6 +1447,7 @@ export class Layout implements XEnumItem {
     Layout.EN_NORMAN,
     Layout.EN_HALMAK,
     Layout.EN_ENGRAM,
+    Layout.EN_ENGRAM_EN,
     Layout.EN_GALLIUM,
     Layout.EN_GALLIUM_MATRIX,
     // Layout.EN_GALLIUM_NL,
